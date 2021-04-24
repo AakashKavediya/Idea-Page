@@ -1,0 +1,149 @@
+*
+{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.brain
+{
+    border: 3px solid black;
+    position: fixed;
+    width: 100%;
+    background-color: #fff; 
+}
+.brain img
+{
+    width: 30px;
+    height: 25px;
+}
+.brain ul
+{
+    display: inline-flex;
+    margin-left: 20px;
+}
+.brain h2
+{
+    display: inline;
+}
+.brain ul li
+{
+    margin-right: 15px;
+    list-style: none;
+}
+.brain ul li a
+{
+    color: black;
+    font-family: 'Bitter', serif;
+}
+.brain .search
+{
+    display: inline;
+    float: right;
+    line-height: 37px;
+}
+.slider .side ul li a
+{
+    color:black;
+    padding: 5px;
+    font-size: 20px;
+}
+.slider .side ul 
+{
+    line-height: 30px;    
+
+}
+.slider .icons
+{
+    padding: 5px;
+    font-size: 20px;
+}
+.slider
+{
+    position: fixed;
+    margin-top:42px;
+    width: 18%;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: white;
+}
+.slider h2
+{
+    padding: 10px;
+    text-decoration: underline;
+}
+.slider .side ul li 
+{
+    border-bottom: 3px solid #000;
+    transition: 1s;
+}
+.slider .side ul li:hover 
+{
+    border-left: 5px solid #000;
+}
+.slider .side .icons
+{
+    color: black;
+    font-size: 17px;
+    display: block;
+    height: 100%;
+    border-bottom: 3px solid #000;
+    transition: 1s;
+}
+.slider .side
+{
+    height: 100%;
+}
+.slider .side .icons:hover
+{
+    border-left: 5px solid #000;
+}
+footer a
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: right;
+    padding: 5px;
+}
+i
+{
+    transition: 1s;
+}
+i:hover
+{
+    color:red;
+}
+.stomach
+{
+    width: 82%;
+    float: right;
+    padding: 7px;
+    text-align: center;
+}
+.mac
+{
+    width: 250px;
+    height: 100%;
+    border: 5px solid black;
+    border-radius: 1.5pc;
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.mac img
+{
+    width: 100%;
+    height: 200px;
+    border: 0.1px solid black;
+    border-radius: 1.5pc;
+}
+.stomach h2
+{
+    border: 7px double black;
+}
+.stomach h3
+{
+    margin-top: 5px;
+}
